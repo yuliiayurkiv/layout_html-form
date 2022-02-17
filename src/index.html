@@ -13,36 +13,54 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
 
-    <form
-    action="http://localhost:3000/api"
-    method="post"
-    >
+    <form action="http://localhost:3000/api" method="post">
       <fieldset>
         <legend>Personal information</legend>
         <div class="formField">
           <label for="userSurname">Surname:
-            <input type="text" name="surname" id="userSurname">
+            <input type="text"
+             name="surname"
+             id="userSurname"
+            >
           </label>
         </div>
         <div class="formField">
           <label for="userName">Name:
-            <input type="text" name="name" id="userName">
+            <input
+             type="text"
+             name="name"
+             id="userName"
+            >
           </label>
         </div>
         <div class="formField">
           <label for="age">How old are you?
-            <input type="number" name="years" id="age"
-          min="1" max="100" value="12">
+            <input
+             type="number"
+             name="years"
+             id="age"
+             min="1"
+             max="100"
+             value="12"
+            >
           </label>
         </div>
         <div class="formField">
           <label for="birthDates">Full date of birth:
-            <input type="date" name="birthDate" id="birthDates">
+            <input
+             type="date"
+             name="birthDate"
+             id="birthDates"
+            >
           </label>
         </div>
         <div class="terms">
           <label for="termsCond">I accept the term of the agriment
-            <input type="checkbox" name="terms" id="termsCond">
+            <input
+             type="checkbox"
+             name="terms"
+             id="termsCond"
+            >
           </label>
         </div>
       </fieldset>
@@ -51,14 +69,24 @@
         <legend>Registration</legend>
         <div class="formField">
           <label for="mail">E-mail:
-            <input type="email" name="eMail" placeholder="email@example.com"
-             id="mail" required>
+            <input
+             type="email"
+             name="eMail"
+             placeholder="email@example.com"
+             id="mail"
+             required
+            >
           </label>
         </div>
         <div class="formField">
           <label for="pass">Password:
-            <input type="password" name="password" id="pass"
-             required minlength="6" maxlength="32">
+            <input
+             type="password"
+             name="password"
+             id="pass"
+             required minlength="6"
+             maxlength="27"
+            >
           </label>
         </div>
       </fieldset>
@@ -67,36 +95,52 @@
         <legend>An interesting fact about you!</legend>
         <div class="formField">
           <label for="catsY">Do you love cats?
-            <input type="radio"
-          name="loveCats"
-          value="Y"
-          id="catsY">
-           Yes
+            <input
+             type="radio"
+             name="loveCats"
+             value="Y"
+             id="catsY"
+            >
+          Yes
           </label>
           <label for="catsN">
-            <input type="radio"
-          name="loveCats"
-          value="N"
-          id="catsN">
+            <input
+             type="radio"
+             name="loveCats"
+             value="N"
+             id="catsN"
+            >
            No
           </label>
         </div>
         <div class="formField">
           <label for="colorF">
-        What is your favourite color?
-            <input type="color" id="colorF" name="color">
+        What is your favorite color?
+            <input
+             type="color"
+             id="colorF"
+             name="color"
+            >
           </label>
         </div>
         <div class="formField">
           <label for="timeBed">
         What time do you go to bed?
-            <input type="time" name="timeB" id="timeBed">
+            <input
+             type="time"
+             name="timeB"
+             id="timeBed"
+            >
           </label>
         </div>
         <div class="formField">
           <label for="cars">
-        What are your favourite brand of cars?
-            <select name="allCars" id="cars" multiple>
+        What are your favorite brand of cars?
+            <select
+             name="allCars"
+             id="cars"
+             multiple
+            >
               <option value="BMW">BMW</option>
               <option value="Audi">Audi</option>
               <option value="Lada">Lada</option>
@@ -105,8 +149,14 @@
         </div>
         <div class="formField">
           <label for="volume">How do you rate our work?
-            <input type="range" id="volume" name="rateWork"
-            min="0" max="10" value="0">
+            <input
+             type="range"
+             id="volume"
+             name="rateWork"
+             min="0"
+             max="10"
+             value="0"
+            >
           </label>
         </div>
       </fieldset>
@@ -116,8 +166,13 @@
         <div class="formField">
           <label for="comm">
         Comments:
-            <textarea name="comment" id="comm" cols="15"
-            rows="2" autocomplete="off">
+            <textarea
+             name="comment"
+             id="comm"
+             cols="15"
+             rows="2"
+             autocomplete="off"
+            >
             </textarea>
           </label>
         </div>
